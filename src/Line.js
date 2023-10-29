@@ -15,7 +15,7 @@ const Line = ({item,handleClick,handleDelete}) => {
     {textDecoration: 'line-through'}:null}
     onDoubleClick={()=> handleClick(item.id)}>{item.item}</label>
    <MdDeleteOutline
-   role="button"
+  
    tabIndex="0"
    araia-label={`Delete {${item.item}}`}
    
